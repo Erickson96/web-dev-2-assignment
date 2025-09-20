@@ -1,0 +1,87 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn HTML5 basics with accessibility and SEO best practices. A simple semantic webpage demonstrating structure, readability, and discoverability.">
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic HTML, web development basics">
+  <meta name="author" content="Your Name">
+  <title>HTML5 Basics: Accessibility & SEO</title>
+</head>
+<body>
+  <!-- Header with site identity -->
+  <header>
+    <h1>HTML5 Basics: Accessibility & SEO</h1>
+    <p>A simple semantic webpage that balances human readability and search engine discoverability.</p>
+  </header>
+
+  <!-- Navigation landmark -->
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#accessibility">Accessibility</a></li>
+      <li><a href="#seo">SEO Basics</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content landmark -->
+  <main>
+    <!-- Section: Introduction -->
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>Modern web design requires balancing the needs of users and search engines. 
+      HTML5 provides semantic elements that make content more meaningful and accessible. 
+      In this page, we demonstrate basic principles of both accessibility and SEO.</p>
+    </section>
+
+    <!-- Section: Accessibility -->
+    <section id="accessibility">
+      <h2>Accessibility</h2>
+      <p>Accessibility ensures that people of all abilities can interact with a website effectively. 
+      By using semantic HTML5 elements such as <code>&lt;header&gt;</code>, 
+      <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>, 
+      assistive technologies like screen readers can interpret the page structure correctly.</p>
+      
+      <article>
+        <h3>Best Practices</h3>
+        <ul>
+          <li>Use descriptive link text (e.g., “Learn more about SEO” instead of “Click here”).</li>
+          <li>Include <code>alt</code> text for images to describe visual content.</li>
+          <li>Ensure headings follow a logical order for screen reader navigation.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Section: SEO -->
+    <section id="seo">
+      <h2>SEO Basics</h2>
+      <p>Search Engine Optimization (SEO) improves a website’s visibility in search results. 
+      A well-structured HTML5 page helps search engines crawl and understand the content effectively.</p>
+
+      <article>
+        <h3>Key Techniques</h3>
+        <ol>
+          <li>Use a single <code>&lt;h1&gt;</code> for the main topic of the page.</li>
+          <li>Apply meta descriptions and keywords for context.</li>
+          <li>Organize content with subheadings (<code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>).</li>
+        </ol>
+      </article>
+    </section>
+
+    <!-- Section: Conclusion -->
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>By combining semantic HTML5, accessibility best practices, and SEO-friendly content, 
+      developers can create web pages that are both user-friendly and optimized for search engines. 
+      This foundation sets the stage for modern, inclusive, and discoverable web design.</p>
+    </section>
+  </main>
+
+  <!-- Footer landmark -->
+  <footer>
+    <p>&copy; 2025 HTML5 Basics Assignment. Created by <strong>Your Name</strong>.</p>
+  </footer>
+</body>
+</html>
+
